@@ -1,0 +1,118 @@
+@import "doomslayer";
+@import "demonios";
+@import "gameplays";
+@import "contacto";
+
+
+
+
+@mixin flex-column-center-aling{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header{
+    background-color: #beb4a5bd;
+    nav{
+        background-color: #beb4a5bd;
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 100px;
+    
+        }
+    }
+    
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
+    gap: 15%;
+}
+
+.inicio{
+    background-image: url(../img/fondo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text-h1{
+    background-color: blue;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.text-h3{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.padre-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    background-color: #232323;
+    color: #C5C0C0;
+    width: 300px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards img{
+    max-width: 200px;
+}
+
+.eternal img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-image: url(../img/footer.jpg);
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    .bi{
+        border: solid black;
+        
+    }
+
+    .redes{
+        font-size: 30px;
+        gap: 30px;
+        margin-bottom: 10px;
+    }
+
+}

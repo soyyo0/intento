@@ -1,0 +1,45 @@
+@mixin flex-column-center-aling{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.fondo3{
+    background-image: url(../img/demonios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contendor-padre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    h2, p{
+        color: lightgrey;
+}
+
+.contendor {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    }
+
+    p{
+        padding: 10px;
+    }
+
+    img{
+        width: 30%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}

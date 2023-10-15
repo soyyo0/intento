@@ -1,0 +1,44 @@
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fondo4{
+    background-image: url(../img/fondogameplay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1{
+        text-align: center;
+        
+    }
+}
+
+.videos-padre{
+    @include flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px ;
+    
+}
+
+.videos{
+    @include flex;
+    width: 400px;
+    background-color: blanchedalmond;
+    margin-bottom: 15px ;
+    iframe{
+        width: 100%;
+    }
+
+}
+.descripcion{
+    text-align: center;
+}
+
+p{
+    color: black;
+}

@@ -1,0 +1,32 @@
+.doom_slayer{
+    background-image: url(../img/doom-slayer.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    h1{
+        background-color: green;
+        text-align: center;
+        color: grey;
+    }
+    .segundo{
+        display: flex;
+        flex-direction: row;
+        .text-5{
+            font-size: 50px;
+            text-align: center;
+        }
+        p{
+            font-size: 1rem;
+            color: lightgray;
+            
+        }
+        img{
+            width: 500px;
+            max-height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    }
+}

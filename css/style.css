@@ -1,0 +1,204 @@
+.doom_slayer {
+  background-image: url(../img/doom-slayer.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.doom_slayer h1 {
+  background-color: green;
+  text-align: center;
+  color: grey;
+}
+.doom_slayer .segundo {
+  display: flex;
+  flex-direction: row;
+}
+.doom_slayer .segundo .text-5 {
+  font-size: 50px;
+  text-align: center;
+}
+.doom_slayer .segundo p {
+  font-size: 1rem;
+  color: lightgray;
+}
+.doom_slayer .segundo img {
+  width: 500px;
+  max-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo3 {
+  background-image: url(../img/demonios.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contendor-padre {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.contendor-padre h2, .contendor-padre p {
+  color: lightgrey;
+}
+.contendor-padre .contendor {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.contendor-padre p {
+  padding: 10px;
+}
+.contendor-padre img {
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fondo4 {
+  background-image: url(../img/fondogameplay.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.fondo4 h1 {
+  text-align: center;
+}
+
+.videos-padre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background-color: blanchedalmond;
+  margin-bottom: 15px;
+}
+.videos iframe {
+  width: 100%;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+header {
+  background-color: rgba(190, 180, 165, 0.7411764706);
+}
+header nav {
+  background-color: rgba(190, 180, 165, 0.7411764706);
+  display: flex;
+  justify-content: space-around;
+}
+header nav img {
+  width: 100px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-around;
+  gap: 15%;
+}
+
+.inicio {
+  background-image: url(../img/fondo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.text-h1 {
+  background-color: blue;
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.text-h3 {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.padre-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cards {
+  background-color: #232323;
+  color: #C5C0C0;
+  width: 300px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cards img {
+  max-width: 200px;
+}
+
+.eternal img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-image: url(../img/footer.jpg);
+  max-width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .bi {
+  border: solid black;
+}
+footer .redes {
+  font-size: 30px;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
