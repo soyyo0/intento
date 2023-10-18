@@ -12,6 +12,8 @@
 .doom_slayer .segundo {
   display: flex;
   flex-direction: row;
+  padding-bottom: 15px;
+  gap: 15;
 }
 .doom_slayer .segundo .text-5 {
   font-size: 50px;
@@ -105,6 +107,46 @@ p {
   color: black;
 }
 
+.fondo5 {
+  background-image: url(../img/contacto-fondo.jpg);
+}
+
+.casillero-padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: chocolate;
+}
+
+label {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.casillero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;
+}
+
 header {
   background-color: rgba(190, 180, 165, 0.7411764706);
 }
@@ -133,6 +175,7 @@ header nav img {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 
 .text-h1 {

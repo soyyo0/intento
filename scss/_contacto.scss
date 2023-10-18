@@ -1,0 +1,35 @@
+@mixin flex-column-center-aling{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.fondo5{
+    background-image: url(../img/contacto-fondo.jpg);
+    
+}
+
+.casillero-padre{
+    @include flex-column-center-aling;
+    padding-bottom: 25px;
+    
+}
+
+form {
+    @include flex-column-center-aling;
+    background-color: chocolate;
+}
+
+label {
+    width: 200px;
+    @include flex-column-center-aling;
+
+}
+
+.casillero{
+    @include flex-column-center-aling;
+    flex-direction: row;
+
+}
